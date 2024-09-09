@@ -4,6 +4,7 @@ import 'package:spotify_clone_bloc/core/configs/theme/app_colors.dart';
 class Apptheme {
   static final lightTheme = ThemeData(
     brightness: Brightness.light,
+    fontFamily: 'Satoshi',
     scaffoldBackgroundColor: AppColors.lightBackground,
     elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
@@ -15,6 +16,7 @@ class Apptheme {
   );
   static final darktheme = ThemeData(
     brightness: Brightness.dark,
+    fontFamily: 'Satoshi',
     scaffoldBackgroundColor: AppColors.darkBackground,
     elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
